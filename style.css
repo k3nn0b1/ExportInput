@@ -71,4 +71,9 @@ label{
 main{
   height: 500px;
   width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px
 }
