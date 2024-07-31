@@ -12,11 +12,11 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
+  height: 90vh;
   width: 100vw; 
   background-color: rgb(230, 239, 245);
   font-family: poppins, monospace, Arial, Helvetica, sans-serif;
-  gap: 3vh;
+  
   justify-content: space-between;
 }
 
@@ -26,7 +26,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: justify;
- 
+  width: 260px;
 }
 
 .inputs{
@@ -73,7 +73,8 @@ label{
 
 main{
   height: 500px;
-  width: 360px;
+  width: 100px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,10 +84,11 @@ main{
 
 p{
   font-size: 12px;
+  color: rgb(0, 128, 202);
 }
 
 #cut{
   background-color: rgb(44, 146, 206);
-  width: 360px;
+  width: 340px;
   height: 2px;
 }
